@@ -1,0 +1,8 @@
+.cabecalho__input {
+    border: 1px solid rgb(211, 211, 211);
+    color: var(--azul-escuro);
+    font-size: 1rem;
+    height: 32px;
+    padding: 0.1875rem 0.5rem;
+    width: 260px;
+}

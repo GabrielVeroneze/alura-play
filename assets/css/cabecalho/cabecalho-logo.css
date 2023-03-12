@@ -1,0 +1,7 @@
+.cabecalho__logo {
+    background-image: url('../../img/cabecalho/Logo.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 34px;
+    width: 134px;
+}
