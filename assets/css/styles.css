@@ -1,0 +1,31 @@
+@import url('../../assets/css/cabecalho/cabecalho.css');
+@import url('../../assets/css/cabecalho/cabecalho-navegacao.css');
+@import url('../../assets/css/cabecalho/cabecalho-logo.css');
+@import url('../../assets/css/cabecalho/cabecalho-pesquisa.css');
+@import url('../../assets/css/cabecalho/cabecalho-input.css');
+@import url('../../assets/css/cabecalho/cabecalho-botao.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --azul-claro: #E5F1FF;
+    --azul-escuro: #154580;
+    --azul-medio: #3970BE;
+    --branco: #FFFFFF;
+    --cinza-claro: #ECECEC;
+    --cinza-texto: #444444;
+    --fonte-principal: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+}
