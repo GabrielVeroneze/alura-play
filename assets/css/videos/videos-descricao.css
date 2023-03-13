@@ -1,0 +1,8 @@
+.videos__descricao {
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 1rem;
+    row-gap: 0.625rem;
+    text-align: start;
+}

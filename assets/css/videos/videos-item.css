@@ -1,0 +1,11 @@
+.videos__item {
+    flex-grow: 1;
+    height: 303px;
+    width: 300px;
+}
+
+@media screen and (min-width: 1440px) {
+    .videos__item {
+        width: 288px;
+    }
+}

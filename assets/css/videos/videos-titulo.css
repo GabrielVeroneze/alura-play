@@ -1,0 +1,6 @@
+.videos__titulo {
+    color: #444444;
+    font-weight: 700;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}

@@ -1,0 +1,7 @@
+.videos__imagem {
+    border-radius: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 1.75rem;
+    width: 1.75rem;
+}

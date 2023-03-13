@@ -1,0 +1,15 @@
+.videos {
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: calc(4.5rem + 80px) 1.25rem 10px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 834px) {
+    .videos {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
