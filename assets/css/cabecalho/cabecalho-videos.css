@@ -1,0 +1,8 @@
+.cabecalho__videos {
+    background-image: url('../../img/cabecalho/video_call.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
