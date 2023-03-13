@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/flexbox.css">
     <title>AluraPlay</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
-
 <body>
-
-    <header>
-
-        <nav class="cabecalho">
-            <a class="logo" href="./index.html"></a>
-
-            <div class="cabecalho__pesquisar">
-
-                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
-                <button class="pesquisar__botao">
-
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <a class="cabecalho__logo" href="./index.html"></a>
+            <div class="cabecalho__pesquisa">
+                <input type="search" class="cabecalho__input" id="pesquisar" placeholder="Pesquisar">
+                <button class="cabecalho__botao"></button>
             </div>
-
-            <div class="cabecalho__icones">
-                <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
-            </div>
+            <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
         </nav>
-
     </header>
-
-    <ul class="videos__container" alt="videos alura">
+    <ul class="videos" alt="videos alura">
         <li class="videos__item">
             <iframe width="100%" height="72%" src="https://www.youtube.com/embed/pA-EgOaF23I"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="descricao-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>Qual é o melhor hardware para programação com Mario Souto</h3>
-                <p>236 mil visualizações</p>
+            <div class="videos__descricao">
+                <img src="./img/logo.png" alt="logo canal alura" class="videos__imagem">
+                <h3 class="videos__titulo">Qual é o melhor hardware para programação com Mario Souto</h3>
+                <p class="videos__visualizacao">236 mil visualizações</p>
             </div>
         </li>
         <li class="videos__item">
@@ -51,10 +37,10 @@
                 title="Voltando ao mercado após a maternidade: Ana Silvério" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="descricao-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>Voltando ao mercado após a mmaternidade: Ana Silvério</h3>
-                <p>618 visualizações</p>
+            <div class="videos__descricao">
+                <img src="./img/logo.png" alt="logo canal alura" class="videos__imagem">
+                <h3 class="videos__titulo">Voltando ao mercado após a maternidade: Ana Silvério</h3>
+                <p class="videos__visualizacao">618 visualizações</p>
             </div>
         </li>
         <li class="videos__item">
@@ -62,10 +48,10 @@
                 title="Mercado de Trabalho | Desmistificando Mobile - Episódio 5" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="descricao-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>Mercado de Trabalho | Desmistificando Mobile...</h3>
-                <p>1,1 mil visualizações</p>
+            <div class="videos__descricao">
+                <img src="./img/logo.png" alt="logo canal alura" class="videos__imagem">
+                <h3 class="videos__titulo">Mercado de Trabalho | Desmistificando Mobile...</h3>
+                <p class="videos__visualizacao">1,1 mil visualizações</p>
             </div>
         </li>
         <li class="videos__item">
@@ -73,13 +59,12 @@
                 title="Conhecendo a linguagem Go | Hipsters.Talks" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="descricao-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>Conhecendo a linguagem Go | Hipsters.Talks</h3>
-                <p>3 mil visualizações</p>
+            <div class="videos__descricao">
+                <img src="./img/logo.png" alt="logo canal alura" class="videos__imagem">
+                <h3 class="videos__titulo">Conhecendo a linguagem Go | Hipsters.Talks</h3>
+                <p class="videos__visualizacao">3 mil visualizações</p>
             </div>
         </li>
     </ul>
 </body>
-
 </html>
