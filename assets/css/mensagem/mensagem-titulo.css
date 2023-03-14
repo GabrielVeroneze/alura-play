@@ -1,0 +1,5 @@
+.mensagem__titulo {
+    color: var(--azul-medio);
+    font-size: 1.375rem;
+    font-weight: bold;
+}
