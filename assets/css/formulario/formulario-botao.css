@@ -1,0 +1,7 @@
+.formulario__botao {
+    background-color: var(--azul-escuro);
+    border-radius: 24px;
+    height: 45px;
+    margin: 1.75rem 0;
+    width: 125px;
+}

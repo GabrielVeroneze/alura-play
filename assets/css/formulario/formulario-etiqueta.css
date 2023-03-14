@@ -1,0 +1,6 @@
+.formulario__etiqueta {
+    color: var(--azul-medio);
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 0 0 .2rem 1.375rem;
+}
