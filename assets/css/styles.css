@@ -13,6 +13,14 @@
 @import url('../../assets/css/videos/videos-titulo.css');
 @import url('../../assets/css/videos/videos-visualizacao.css');
 
+@import url('../../assets/css/formulario/container.css');
+@import url('../../assets/css/formulario/formulario.css');
+@import url('../../assets/css/formulario/formulario-titulo.css');
+@import url('../../assets/css/formulario/formulario-campo.css');
+@import url('../../assets/css/formulario/formulario-etiqueta.css');
+@import url('../../assets/css/formulario/formulario-escrita.css');
+@import url('../../assets/css/formulario/formulario-botao.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
