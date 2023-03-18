@@ -15,12 +15,15 @@ function criaItem(titulo, descricao, url, imagem) {
         </div>
     `
 
+    // Retorna o elemento video criado com titulo, descrição, url e imagem já inseridos.
     return video
 }
 
 async function adicionaItemNaLista() {
+    // Usa o objeto "conectaAPI" importado e chama o método listaVideos(), que retorna um array de objetos com os dados dos videos.
     const listaDeVideos = await conectaApi.listaVideos()
     
+    // Itera sobre "listaDeVideos" adicionando no "elementoLista" um item, nesse caso, o elemento "video" retornado da função "criaItem()"
     listaDeVideos.forEach(video => {
         elementoLista.appendChild(criaItem(video.titulo, video.descricao, video.url, video.imagem))
     })
