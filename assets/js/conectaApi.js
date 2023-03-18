@@ -1,5 +1,5 @@
 async function listaVideos() {
-    // Faz uma busca para a API REST fake com os dados fictícios para a aplicação.
+    // Faz uma requisição GET para a API REST fake com os dados fictícios para a aplicação.
     const conexao = await fetch('http://localhost:3000/videos')
     const conexaoConvertida = await conexao.json()
     
