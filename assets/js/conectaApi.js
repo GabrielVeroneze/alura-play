@@ -35,13 +35,6 @@ async function criaVideo(titulo, descricao, url, imagem) {
     return conexaoConvertida
 }
 
-criaVideo(
-    "Linguagens e ferramentas usadas em Ciência de Dados...",
-    "2,5",
-    "https://www.youtube.com/embed/h83e1aAM5xQ",
-    "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-)
-
 // Ao exportar a função "listaVideos" como parte de um objeto, outras partes do código podem importar e usar essa função. 
 // Quando outras partes do código precisarem acessar a função "listaVideos" podem importar o objeto "conectaApi" e chamar o método "listaVideos". Sintaxe: "conectaApi.listaVideos()".
 export const conectaApi = {
