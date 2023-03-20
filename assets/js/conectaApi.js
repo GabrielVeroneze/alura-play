@@ -9,12 +9,18 @@ async function listaVideos() {
 
 async function criaVideo(titulo, descricao, url, imagem) {
 
+    // objeto de opções
     const options = {
+        // Define o método HTTP como "POST"
         method: 'POST',
+        // Permite requisições de origem cruzada
         mode: 'cors',
+        // contém informações adicionais sobre a requisição
         headers: {
+            //  O tipo de conteúdo que está sendo enviado no corpo da requisição
             'Content-type': 'application/json'
         },
+        // Transforma o objeto literal com os dados que queremos enviar em uma string JSON e inclue no corpo da requisição
         body: JSON.stringify({
             titulo: titulo,
             descricao: `${descricao} mil visualizações`,
