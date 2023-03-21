@@ -1,4 +1,4 @@
-async function listaVideos() {
+async function recebeVideos() {
     // Faz uma requisição GET para a API REST fake com os dados fictícios para a aplicação.
     const conexao = await fetch('http://localhost:3000/videos')
     const conexaoConvertida = await conexao.json()
@@ -7,7 +7,7 @@ async function listaVideos() {
     return conexaoConvertida
 }
 
-async function criaVideo(titulo, descricao, url, imagem) {
+async function enviaVideos(titulo, descricao, url, imagem) {
 
     // objeto de opções
     const options = {
@@ -35,9 +35,9 @@ async function criaVideo(titulo, descricao, url, imagem) {
     return conexaoConvertida
 }
 
-// Ao exportar a função "listaVideos" como parte de um objeto, outras partes do código podem importar e usar essa função. 
-// Quando outras partes do código precisarem acessar a função "listaVideos" podem importar o objeto "conectaApi" e chamar o método "listaVideos". Sintaxe: "conectaApi.listaVideos()".
+// Ao exportar a função "recebeVideos" como parte de um objeto, outras partes do código podem importar e usar essa função. 
+// Quando outras partes do código precisarem acessar a função "recebeVideos" podem importar o objeto "conectaApi" e chamar o método "recebeVideos". Sintaxe: "conectaApi.recebeVideos()".
 export const conectaApi = {
-    listaVideos,
-    criaVideo
+    recebeVideos,
+    enviaVideos
 }

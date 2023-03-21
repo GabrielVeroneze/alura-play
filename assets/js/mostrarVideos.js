@@ -20,8 +20,8 @@ function criaItem(titulo, descricao, url, imagem) {
 }
 
 async function adicionaItemNaLista() {
-    // Usa o objeto "conectaAPI" importado e chama o método listaVideos(), que retorna um array de objetos com os dados dos videos.
-    const listaDeVideos = await conectaApi.listaVideos()
+    // Usa o objeto "conectaAPI" importado e chama o método recebeVideos(), que retorna um array de objetos com os dados dos videos.
+    const listaDeVideos = await conectaApi.recebeVideos()
     
     // Itera sobre "listaDeVideos" adicionando no "elementoLista" um item, nesse caso, o elemento "video" retornado da função "criaItem()"
     listaDeVideos.forEach(video => {
