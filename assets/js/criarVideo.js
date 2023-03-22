@@ -18,6 +18,7 @@ async function criaVideos(evento) {
 
     await conectaApi.enviaVideos(titulo, descricao, urlEmbed, imagem)
 
+    // Redireciona o navegador para um novo URL, a página de envio concluido
     window.location.href = "/pages/envio-concluido.html"
 }
 
