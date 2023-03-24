@@ -35,9 +35,17 @@ async function enviaVideos(titulo, descricao, url, imagem) {
     return conexaoConvertida
 }
 
+async function pesquisaVideos(termoDePesquisa) {
+    const conexao = await fetch(`https://localhost:3000/videos?q=${termoDePesquisa}`)
+    const conexaoConvertida = conexao.json()
+
+    return conexaoConvertida
+}
+
 // Ao exportar a função "recebeVideos" como parte de um objeto, outras partes do código podem importar e usar essa função. 
 // Quando outras partes do código precisarem acessar a função "recebeVideos" podem importar o objeto "conectaApi" e chamar o método "recebeVideos". Sintaxe: "conectaApi.recebeVideos()".
 export const conectaApi = {
     recebeVideos,
-    enviaVideos
+    enviaVideos,
+    pesquisaVideos
 }
