@@ -36,9 +36,11 @@ async function enviaVideos(titulo, descricao, url, imagem) {
 }
 
 async function pesquisaVideos(termoDePesquisa) {
+    // Executa filtros através do uso de query parameters na URL da requisição GET. Ira buscar no servidor, videos com qualquer propriedade que tenha o valor igual o do "termoDePesquisa"
     const conexao = await fetch(`https://localhost:3000/videos?q=${termoDePesquisa}`)
     const conexaoConvertida = conexao.json()
 
+    // Retorna os dados filtrados
     return conexaoConvertida
 }
 
