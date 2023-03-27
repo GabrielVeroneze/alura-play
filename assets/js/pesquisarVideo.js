@@ -9,6 +9,10 @@ async function pesquisarVideo(evento) {
 
     const elementoLista = document.querySelector('[data-lista]')
 
+    while (elementoLista.firstElementChild) {
+        elementoLista.removeChild(elementoLista.firstElementChild)
+    }
+
     pesquisa.forEach(video => {
         elementoLista.appendChild(criaItem(video.titulo, video.descricao, video.url, video.imagem))
     })
