@@ -29,7 +29,7 @@ async function enviaVideos(titulo, descricao, url, imagem) {
         })    
     }
 
-    const conexao = await fetch('http://localhost:3000/vides', options)
+    const conexao = await fetch('http://localhost:3000/videos', options)
     // Verifica se a 'conexao' possui a propriedade "ok" definida como "false". Se isso for verdadeiro, ele lança um erro personalizado, informando que não foi possível enviar o vídeo
     if (!conexao.ok) {
         throw new Error('Não foi possivel enviar o vídeo')
