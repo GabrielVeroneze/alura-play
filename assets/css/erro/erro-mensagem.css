@@ -1,0 +1,6 @@
+.erro__mensagem {
+    color: var(--azul-medio);
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}

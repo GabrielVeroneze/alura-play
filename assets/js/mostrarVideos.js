@@ -20,13 +20,23 @@ function criaItem(titulo, descricao, url, imagem) {
 }
 
 async function adicionaItemNaLista() {
-    // Usa o objeto "conectaAPI" importado e chama o método recebeVideos(), que retorna um array de objetos com os dados dos videos.
-    const listaDeVideos = await conectaApi.recebeVideos()
-    
-    // Itera sobre "listaDeVideos" adicionando no "elementoLista" um item, nesse caso, o elemento "video" retornado da função "criaItem()"
-    listaDeVideos.forEach(video => {
-        elementoLista.appendChild(criaItem(video.titulo, video.descricao, video.url, video.imagem))
-    })
+
+    try {
+        // Usa o objeto "conectaAPI" importado e chama o método recebeVideos(), que retorna um array de objetos com os dados dos videos.
+        const listaDeVideos = await conectaApi.recebeVideos()
+        // Itera sobre "listaDeVideos" adicionando no "elementoLista" um item, nesse caso, o elemento "video" retornado da função "criaItem()"
+        listaDeVideos.forEach(video => {
+            elementoLista.appendChild(criaItem(video.titulo, video.descricao, video.url, video.imagem))
+        })
+    } catch (erro) {
+        // se houver um erro ao chamar o método "recebeVideos()", o bloco "catch" será executado e uma mensagem de erro será exibida na lista. 
+        elementoLista.innerHTML = `
+            <div class="erro__box">
+                <div class="erro__icone"></div>
+                <h2 class="erro__mensagem">Não foi possível carregar a lista de vídeos</h2>
+            </div>
+        `
+    }
 }
 
 adicionaItemNaLista()

@@ -1,0 +1,6 @@
+.erro__icone {
+    background: url('https://www.dropbox.com/s/xq0841cp3icnuqd/flame.png?raw=1') center bottom 50px / 128px 128px no-repeat,
+        url('https://www.dropbox.com/s/w7qqrcvhlx3pwnf/desktop-pc.png?raw=1') center bottom / 128px 128px no-repeat;
+    height: calc(128px + 50px);
+    width: 128px;
+}

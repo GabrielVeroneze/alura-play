@@ -25,6 +25,10 @@
 @import url('../../assets/css/mensagem/mensagem-titulo.css');
 @import url('../../assets/css/mensagem/mensagem-imagem.css');
 
+@import url('../../assets/css/erro/erro-box.css');
+@import url('../../assets/css/erro/erro-icone.css');
+@import url('../../assets/css/erro/erro-mensagem.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
