@@ -16,10 +16,16 @@ async function criaVideos(evento) {
     // Gera numero aleatório entre 0 e 100 convertido em string
     const descricao = Math.floor(Math.random() * 100).toString()
 
-    await conectaApi.enviaVideos(titulo, descricao, urlEmbed, imagem)
+    try {
+        await conectaApi.enviaVideos(titulo, descricao, urlEmbed, imagem)
 
-    // Redireciona o navegador para um novo URL, a página de envio concluido
-    window.location.href = "/pages/envio-concluido.html"
+        // Redireciona o navegador para um novo URL, a página de envio concluido
+        window.location.href = "/pages/envio-concluido.html"
+    } catch (erro) {
+        // Exibe o erro lançado na função 'enviaVideos'
+        alert(erro)
+    }
+
 }
 
 formulario.addEventListener('submit', evento => criaVideos(evento))
