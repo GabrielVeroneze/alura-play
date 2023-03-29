@@ -2,6 +2,6 @@
     display: grid;
     height: 100vh;
     justify-content: center;
-    text-align: center;
     padding: calc(4.5rem + 80px) 1.25rem 10px;;
+    text-align: center;
 }
