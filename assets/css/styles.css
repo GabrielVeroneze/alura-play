@@ -1,33 +1,33 @@
-@import url('../../assets/css/cabecalho/cabecalho.css');
-@import url('../../assets/css/cabecalho/cabecalho-navegacao.css');
-@import url('../../assets/css/cabecalho/cabecalho-logo.css');
-@import url('../../assets/css/cabecalho/cabecalho-pesquisa.css');
-@import url('../../assets/css/cabecalho/cabecalho-input.css');
-@import url('../../assets/css/cabecalho/cabecalho-botao.css');
-@import url('../../assets/css/cabecalho/cabecalho-videos.css');
+@import url('cabecalho/cabecalho.css');
+@import url('cabecalho/cabecalho-navegacao.css');
+@import url('cabecalho/cabecalho-logo.css');
+@import url('cabecalho/cabecalho-pesquisa.css');
+@import url('cabecalho/cabecalho-input.css');
+@import url('cabecalho/cabecalho-botao.css');
+@import url('cabecalho/cabecalho-videos.css');
 
-@import url('../../assets/css/videos/videos.css');
-@import url('../../assets/css/videos/videos-item.css');
-@import url('../../assets/css/videos/videos-descricao.css');
-@import url('../../assets/css/videos/videos-imagem.css');
-@import url('../../assets/css/videos/videos-titulo.css');
-@import url('../../assets/css/videos/videos-visualizacao.css');
+@import url('videos/videos.css');
+@import url('videos/videos-item.css');
+@import url('videos/videos-descricao.css');
+@import url('videos/videos-imagem.css');
+@import url('videos/videos-titulo.css');
+@import url('videos/videos-visualizacao.css');
 
-@import url('../../assets/css/formulario/container.css');
-@import url('../../assets/css/formulario/formulario.css');
-@import url('../../assets/css/formulario/formulario-titulo.css');
-@import url('../../assets/css/formulario/formulario-campo.css');
-@import url('../../assets/css/formulario/formulario-etiqueta.css');
-@import url('../../assets/css/formulario/formulario-escrita.css');
-@import url('../../assets/css/formulario/formulario-botao.css');
+@import url('formulario/container.css');
+@import url('formulario/formulario.css');
+@import url('formulario/formulario-titulo.css');
+@import url('formulario/formulario-campo.css');
+@import url('formulario/formulario-etiqueta.css');
+@import url('formulario/formulario-escrita.css');
+@import url('formulario/formulario-botao.css');
 
-@import url('../../assets/css/mensagem/mensagem.css');
-@import url('../../assets/css/mensagem/mensagem-titulo.css');
-@import url('../../assets/css/mensagem/mensagem-imagem.css');
+@import url('mensagem/mensagem.css');
+@import url('mensagem/mensagem-titulo.css');
+@import url('mensagem/mensagem-imagem.css');
 
-@import url('../../assets/css/erro/erro-box.css');
-@import url('../../assets/css/erro/erro-imagem.css');
-@import url('../../assets/css/erro/erro-mensagem.css');
+@import url('erro/erro-box.css');
+@import url('erro/erro-imagem.css');
+@import url('erro/erro-mensagem.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
