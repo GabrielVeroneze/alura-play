@@ -19,6 +19,16 @@ async function pesquisarVideo(evento) {
     pesquisa.forEach(video => {
         elementoLista.appendChild(criaItem(video.titulo, video.descricao, video.url, video.imagem))
     })
+
+    // Se a pesquisa não retornar nenhum resultado, o bloco cria uma mensagem de erro em HTML 
+    if (pesquisa.length == 0) {
+        elementoLista.innerHTML = `
+            <div class="erro__box">
+                <img src="../assets/img/procurar-video-erro.svg" class="erro__imagem">
+                <h2 class="erro__mensagem">Não existem vídeos com esse termo</h2>
+            </div>
+        `
+    }
 }
 
 const botaoDePesquisa = document.querySelector('[data-botao-pesquisa]')
