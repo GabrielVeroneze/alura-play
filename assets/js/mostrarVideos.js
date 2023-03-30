@@ -32,7 +32,7 @@ async function adicionaItemNaLista() {
         // se houver um erro ao chamar o método "recebeVideos()", o bloco "catch" será executado e uma mensagem de erro será exibida na lista. 
         elementoLista.innerHTML = `
             <div class="erro__box">
-                <img src="../assets/img/mostrar-video-erro.svg" class="erro__imagem">
+                <img src="../img/mostrar-video-erro.svg" class="erro__imagem">
                 <h2 class="erro__mensagem">Não foi possível carregar a lista de vídeos</h2>
             </div>
         `
