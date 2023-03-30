@@ -24,7 +24,7 @@ async function pesquisarVideo(evento) {
     if (pesquisa.length == 0) {
         elementoLista.innerHTML = `
             <div class="erro__box">
-                <img src="../img/procurar-video-erro.svg" class="erro__imagem">
+                <img src="./assets/img/procurar-video-erro.svg" class="erro__imagem">
                 <h2 class="erro__mensagem">Não existem vídeos com esse termo</h2>
             </div>
         `
