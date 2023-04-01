@@ -15,7 +15,7 @@
 - `Pesquisa de vídeos`: A plataforma possui um campo de busca que permite pesquisar vídeos por título. Ao digitar um termo de busca e clicar no botão de pesquisa, é feita uma requisição GET para o servidor local com uma query string contendo o termo de busca. O servidor então retorna apenas os vídeos que correspondem à pesquisa.
 
 ## :computer: Tecnologias e Ferramentas utilizadas
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     - `<a>`
     - `<button>` 
     - `<header>`
@@ -26,7 +26,7 @@
     - `<main>` 
     - `<nav>`
     - etc
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     - `background`
     - `cursor`
     - `display`
@@ -37,7 +37,7 @@
     - `width`
     - `z-index`
     - etc
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     - `addEventListener`
     - `async`/ `await`
     - `fetch`
@@ -48,7 +48,7 @@
     - `query string`
     - `try...catch`
     - etc
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
     - `API RESTful`
     - `json-server`
     - `Node Package Manager`
@@ -73,7 +73,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 ```
 json-server --watch db.json
 ```
-Este comando iniciará o servidor JSON no endereço http://localhost:3000.
+   Este comando iniciará o servidor JSON no endereço http://localhost:3000.
 
 4. Abra o arquivo index.html em um navegador de sua escolha para visualizar a página.
 
