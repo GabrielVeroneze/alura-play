@@ -28,7 +28,7 @@
     - `media queries`
     - e outros
 
-= <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><br>
+- <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><br>
     - `addEventListener`
     - `async`/ `await`
     - `fetch`
