@@ -16,7 +16,7 @@ async function criaVideos(evento) {
     try {
         await conectaApi.enviaVideos(titulo, descricao, urlEmbed, imagem)
 
-        window.location.href = "/pages/envio-concluido.html"
+        window.location.pathname = '/pages/envio-concluido.html'
     } catch (erro) {
         alert(erro)
     }

@@ -71,7 +71,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
    ```
 &nbsp; &nbsp; &nbsp; &nbsp;Este comando iniciará o servidor JSON no endereço http://localhost:3000.
 
-5. Por fim, inicie o Live Server do VSCode clicando com o botão direito no arquivo `ìndex.html` e selecionando a opção "Open with Live Server". Isso abrirá a página HTML principal.
+5. Por fim, inicie o Live Server do VSCode clicando com o botão direito no arquivo `index.html` e selecionando a opção "Open with Live Server". Isso abrirá a página HTML principal.
 <br>
 
 ## Screenshots
