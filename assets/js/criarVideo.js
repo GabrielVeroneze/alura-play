@@ -20,7 +20,6 @@ async function criaVideos(evento) {
     } catch (erro) {
         alert(erro)
     }
-
 }
 
 formulario.addEventListener('submit', evento => criaVideos(evento))
