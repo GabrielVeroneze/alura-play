@@ -16,7 +16,8 @@ async function criaVideos(evento) {
     try {
         await conectaApi.enviaVideos(titulo, descricao, urlEmbed, imagem)
 
-        window.location.pathname = '/pages/envio-concluido.html'
+        const novoCaminho = window.location.pathname.replace('/pages/enviar-video.html', '/pages/envio-concluido.html')
+        window.location.pathname = novoCaminho
     } catch (erro) {
         alert(erro)
     }
