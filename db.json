@@ -1,88 +1,102 @@
 {
   "videos": [
     {
-      "id": 1,
-      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+      "titulo": "Functions (Funções) EXPRESSION vs DECLARATION no JavaScript",
+      "descricao": "72 mil visualizações",
+      "url": "https://www.youtube.com/embed/scAYB-1ODGk",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 1
+    },
+    {
+      "titulo": "O que é Devops?",
+      "descricao": "32 mil visualizações",
+      "url": "https://www.youtube.com/embed/3_k2GVkMt30",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 2
+    },
+    {
+      "titulo": "Data Science: Introdução a testes estatísticos com Python",
+      "descricao": "22 mil visualizações",
+      "url": "https://www.youtube.com/embed/PnfqWdmCHSo",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 3
+    },
+    {
+      "titulo": "Engenheiro de software ou Programador?",
+      "descricao": "97 mil visualizações",
+      "url": "https://www.youtube.com/embed/Gm6U-AxXEQ0",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 4
+    },
+    {
+      "titulo": "Box Model e Sizing no CSS",
+      "descricao": "61 mil visualizações",
+      "url": "https://www.youtube.com/embed/qcNUxyOWXIw",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 5
+    },
+    {
+      "titulo": "Qual a melhor forma de aprender JavaScript?",
+      "descricao": "67 mil visualizações",
+      "url": "https://www.youtube.com/embed/_Mx64Rkv92c",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 6
+    },
+    {
+      "titulo": "O que é e o que faz quem trabalha com UX?",
       "descricao": "3 mil visualizações",
-      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      "url": "https://www.youtube.com/embed/FJhMCi07T4A",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 7
     },
     {
-      "id": 2,
-      "titulo": "Desmistificando mobile - Linguagens e Frameworks",
-      "descricao": "1,5 mil visualizações",
-      "url": "https://www.youtube.com/embed/fmu1LQvZhms",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      "titulo": "JavaScript Strict Mode",
+      "descricao": "51 mil visualizações",
+      "url": "https://www.youtube.com/embed/-iiSEKTotyg",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 8
     },
     {
-      "id": 3,
-      "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
-      "descricao": "30 mil visualizações",
-      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 4,
-      "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
-      "descricao": "2,5 mil visualizações",
-      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 5,
-      "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
-      "descricao": "1,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 6,
-      "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
-      "descricao": "1,6 mil visualizações",
-      "url": "https://www.youtube.com/embed/vf9P_PycgRw",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 7,
-      "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
-      "descricao": "3,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 8,
-      "titulo": "baNaNa | Memes do JavaScript #2",
-      "descricao": "1,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
-      "descricao": "1 mil visualizações",
-      "url": "https://www.youtube.com/embed/z43rcfjXOxU",
-      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "titulo": "Aprenda a transformar design em código com o Figma",
+      "descricao": "81 mil visualizações",
+      "url": "https://www.youtube.com/embed/sup2hlWm5yE",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 9
     },
     {
-      "titulo": "Educação coorporativa",
-      "descricao": "9 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "titulo": "O que são Git e Github?",
+      "descricao": "55 mil visualizações",
+      "url": "https://www.youtube.com/embed/P4BNi_yPehc",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 10
     },
     {
-      "titulo": "Orientação a objetos com Roberta Arcoverde | #HipstersPontoTube",
-      "descricao": "42 mil visualizações",
-      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
-      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "titulo": "Como utilizar o Python em meus projetos?",
+      "descricao": "76 mil visualizações",
+      "url": "https://www.youtube.com/embed/XGRNaMkWd2s",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 11
     },
     {
-      "titulo": "VSCode: Dicas e Truques | #AluraMais",
-      "descricao": "26 mil visualizações",
-      "url": "https://www.youtube.com/embed/C3o9KwOHeCk",
-      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "titulo": "Mitos em PHP",
+      "descricao": "28 mil visualizações",
+      "url": "https://www.youtube.com/embed/CujS0VGF8oA",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 12
+    },
+    {
+      "titulo": "Hook useCallback x useMemo: performance no React",
+      "descricao": "96 mil visualizações",
+      "url": "https://www.youtube.com/embed/VVmGrEZoBvM",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 13
+    },
+    {
+      "titulo": "Data Science: por onde eu começo?",
+      "descricao": "97 mil visualizações",
+      "url": "https://www.youtube.com/embed/K-eaT4V8j-w",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 14
     }
   ]
 }
