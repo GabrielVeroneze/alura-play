@@ -4,3 +4,10 @@
     height: 80px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho__navegacao {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
