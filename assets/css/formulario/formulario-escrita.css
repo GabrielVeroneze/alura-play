@@ -5,3 +5,10 @@
     padding: 1.375rem;
     width: 50vw;
 }
+
+@media screen and (max-width: 768px) {
+    .formulario__escrita {
+        padding:  1rem 1.375rem;
+        width: 80vw;
+    }
+}
