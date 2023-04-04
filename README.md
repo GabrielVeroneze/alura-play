@@ -74,6 +74,12 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 5. Por fim, inicie o Live Server do VSCode clicando com o botão direito no arquivo `index.html` e selecionando a opção "Open with Live Server". Isso abrirá a página HTML principal.
 <br>
 
-## Screenshots
-![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
-![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
+## Demonstração Visual
+`Página inicial`
+![aluraPlay](https://imgur.com/SdzneIX.png)
+
+`Cadastro de novos vídeos`
+![aluraPlay-criar](https://user-images.githubusercontent.com/95183901/229896325-c54ee023-90c1-4e06-915d-2b22ffe71ce1.gif)
+
+`Pesquisa de vídeos`
+![aluraPlay-pesquisar](https://user-images.githubusercontent.com/95183901/229903634-5a79b9e0-1719-4f60-a2a5-f7ab208bae3d.gif)
